@@ -1,8 +1,14 @@
+body h3 {
+    text-align: center;
+}
+
 #grid {
-    width: 200px;
-    height: 400px;
+    width: 1000px;
+    height: 800px;
     display: flex;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
     background-color: blue;
 }
 
@@ -15,5 +21,8 @@
 #start_button {
     width: 150px;
     height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-size : 20px;
 }

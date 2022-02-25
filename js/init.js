@@ -1,3 +1,7 @@
+//Variables
+let x=0;
+
+//Initialize game elements
 document.addEventListener('DOMContentLoaded', () => {
     const grid = document.querySelector('#grid');
     let boxes = Array.from(document.querySelectorAll('.box'));
@@ -5,10 +9,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const StartBtn = document.querySelector('#start-button');
 })
 
+//Start game
 function init() {
-    for(x=0; x<200; x++) {
+    while (x<2000){
         var box = document.createElement('div');
         box.className = "box";
         document.getElementById('grid').appendChild(box);
+        x++;
     }
 }
